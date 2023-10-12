@@ -83,7 +83,7 @@ export default{
         }
         onMounted(() => {
             let hubConnection = new signalR.HubConnectionBuilder()
-            .withUrl("http://localhost:9191/GoShopHub/")
+            .withUrl("http://10.50.10.159:9191/GoShopHub/")
             .build();
             // 註冊 MessageHub 的 sendToAllConnections 事件
             

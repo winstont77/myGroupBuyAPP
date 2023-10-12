@@ -109,7 +109,7 @@ export default{
             // .withUrl("http://localhost:9191/GoShopHub/", { withCredentials: true })
             // .build();
             let hubConnection = new signalR.HubConnectionBuilder()
-            .withUrl("http://localhost:9191/GoShopHub/", { withCredentials: true })
+            .withUrl("http://10.50.10.159:9191/GoShopHub/", { withCredentials: true })
             .build();
             // 註冊 MessageHub 的 sendToAllConnections 事件
             
