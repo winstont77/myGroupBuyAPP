@@ -1,0 +1,25 @@
+{
+  "name": "groupbuy",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@aspnet/signalr": "^1.0.27",
+    "@microsoft/signalr": "^7.0.11",
+    "@types/plotly.js": "^2.12.27",
+    "axios": "^1.5.0",
+    "plotly.js": "^2.26.1",
+    "plotly.js-dist-min": "^2.26.1",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.5"
+  }
+}
